@@ -20,4 +20,5 @@ O sistema é uma ferramenta de gestão de suprimentos desenhada como uma **tecno
 ## ⚙️ Como rodar o projeto localmente
 
 1. **Clone o repositório:**
-   ```bash https://github.com/daletejesus/lista-compras
+   ```bash
+   https://github.com/daletejesus/lista-compras
