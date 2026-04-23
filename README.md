@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Lista de Compras Inteligente - Projeto de Extensão ODS 8
 
-## Getting Started
+Este projeto foi desenvolvido como parte da disciplina de **Projeto de Extensão II** do curso de Engenharia de Software. A aplicação é focada no **Objetivo de Desenvolvimento Sustentável 8 (Trabalho Decente e Crescimento Econômico)** da ONU.
 
-First, run the development server:
+## 📌 Sobre o Projeto
+O sistema é uma ferramenta de gestão de suprimentos desenhada como uma **tecnologia assistiva** para profissionais domésticos. O objetivo é facilitar o planejamento de compras, otimizar o orçamento familiar e evitar o desperdício, contribuindo para uma economia doméstica mais organizada e sustentável.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Funcionalidades
+- **Gestão de Itens:** Adição de produtos com especificação de nome e quantidade.
+- **Feedback de Progresso:** Ao marcar um item como comprado, o texto recebe um efeito visual de riscado (`line-through`).
+- **Persistência de Dados:** Integração com banco de dados em nuvem para acesso de qualquer dispositivo.
+- **Exclusão em Tempo Real:** Possibilidade de remover itens da lista com atualização imediata no banco.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologias Utilizadas
+- **Next.js**: Framework React para alta performance e rotas.
+- **Tailwind CSS**: Estilização moderna e responsiva (utilizando paleta `orange-50`).
+- **Supabase**: Backend-as-a-Service para banco de dados PostgreSQL.
+- **TypeScript**: Para garantir a segurança e integridade dos dados através de tipagem estática.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Como rodar o projeto localmente
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/daletejesus/lista-compras
