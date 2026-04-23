@@ -21,4 +21,4 @@ O sistema é uma ferramenta de gestão de suprimentos desenhada como uma **tecno
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/daletejesus/lista-compras
+ https://github.com/daletejesus/lista-compras
